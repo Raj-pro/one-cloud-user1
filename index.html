@@ -1082,160 +1082,6 @@
 
 
 
-<!--box app-->
-
-<!--
-
-
-<div class="appdrawer" id="appdrawer" onmouseover="hoverwrote()">
-  
-     <div>
-      <div class="app wrote" id="showwrote">
-          <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">subject</i>
-      </div>
-      <h1></h1>
-     </div>
-
-     <div>
-      <div class="app music" onmouseover="hovermusic()" id="showmusic">
-          <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">music_note</i>
-      </div>
-      <h1></h1>
-     </div>
-     <div>
-      <div class="app wiki" onmouseover="hoverwiki()" id="showwiki"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">search</i>
-      </div>
-      <h1></h1></div>
-     <div>
-      <div class="app note" onmouseover="hovernote()" id="shownote"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">note</i>
-      </div>
-      <h1></h1></div>
-     <div>
-      <div class="app june" onmouseover="hoverjune()" id="showjune"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">keyboard_voice</i>
-      </div>
-      <h1></h1></div>
-  
-     <div>
-      <div class="app calculatorapp" id="showcalculator"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">add</i>
-      </div>
-      <h1></h1></div>
-     <div onClick="draweropen()">
-      <div class="appo appdraweropenfull" id="showappdraweropenfull" onClick="draweropen()"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;" onClick="draweropen()">blur_on</i>
-      </div>
-      <h1></h1>
-    </div>
-
--->
-<!--BAR 2-->
-  <!--
-     <div>
-      <div class="appl2 app1" id="showapp1"> <i class="material-icons md-dark" style="left:5px; top:6.5px; position:relative; font-size:30px;">details</i>
-      </div>
-      <h1></h1></div>
-     <div>
-      <div class="appl2 app2" id="showapp2"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">crop_square</i>
-      </div>
-      <h1></h1></div>
-     <div>
-      <div class="appl2 app3" id="showapp3"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">panorama_fish_eye</i>
-      </div>
-      <h1></h1></div>
-      <div class="appl2 weather" id="showweather"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">filter_drama</i>
-      </div>
-      <h1></h1></div>
-     <div>
-      <div class="appl2 help" id="showhelp"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">help</i>
-      </div>
-      <h1></h1></div>
-     <div>
-      <div class="appl2 set" onmouseover="hoverset()" id="showset"> <i class="material-icons md-dark" style="left:5px; top:5px; position:relative; font-size:30px;">settings</i>
-      </div>
-       <h1></h1></div>
-    </div>
-   </div>
-
-</div>
-
--->
-
-<!--box app end-->
-
-
-
-
-
-
-<!--draggble apps-->
-
-<!--
-<div class="appboxmusic" style="position:relative; top:30em; left:34%;">
-
-  <script>
-   //hide app
-   $(document).ready(function() {
-    $("#hidemusic").click(function() {
-     $('div[class^="appboxmusic"]').hide();
-    });
-    //show app
-    $("#showmusic").click(function() {
-     $('div[class^="appboxmusic"]').show();
-    });
-    $('div[class^="appboxmusic"]').hide();
-   });
-  </script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <style>
-   #draggablemusic {
-    width: 450px;
-    height: 40px;
-   }
-  </style>
-
-  <script>
-   $(function() {
-    $("#draggablemusic").draggable();
-   });
-  </script>
-  <center>
-
-   <div id="draggablemusic" class="appwindow musicapp" style="position:absolute; width:500px;height:500px; border:none; 	background-color:none;">
-
-    <div class="menubar" style="width:500px; position:absolute; top:-12px;	">
-
-     <button class="hidemusic" id="hidemusic">
-    </button>
-     <div class="menubarhider" style="width:500px; position:absolute; 	"></div>
-
-
-     youtube
-
-
-
-     <center>
-      <div class="frameOverlay"></div>
-      <div class="musicplayerborder"> 
-       
-
-        
-      
-        
-      </div>
-     </center>
-     </form>
-    </div>
-
-  </center>
-  </script>
-
-
-  </div>
--->
-<!--draggble apps end-->
-
-
 <!--calender-->
 
 
@@ -1352,21 +1198,6 @@
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   const contextMenu = document.getElementById('contextMenu');
 
   // Load saved content from localStorage and render it
@@ -1411,7 +1242,7 @@
 
   document.getElementById('createDiv').addEventListener('click', () => {
     // Prompt the user to enter a new name for the text file
-    const defaultName = "textfile";
+    const defaultName = "note";
     const newName = prompt("Please enter the name for the text file:", defaultName);
 
     // If the user cancels the prompt, return early
@@ -1616,10 +1447,6 @@ $(document).ready(function() {
 });
 
 
-
-
-
-  
 </script>
 </div>
 
