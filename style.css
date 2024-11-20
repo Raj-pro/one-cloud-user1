@@ -70,6 +70,7 @@ header {
 	border-bottom: 1px solid #709AD1;
 	background: rgba(47, 53, 56, 0.95);
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
 	padding: 0.5rem 1rem;
   }
@@ -77,22 +78,22 @@ header {
   header .flex {
 	display: flex;
 	align-items: center;
-	width: 100%;
-	justify-content: space-between;
   }
   
   header form {
-	flex: 1;
-	display: flex;
-	justify-content: center;
+	width: 50%;
   }
   
   header input[type="text"] {
+
 	width: 300px;
-	padding: 0.5rem;
-	border: 1px solid #ccc;
-	border-radius: 5px;
+	height: 44px;
+	padding-left: 1.5rem;
+	border: 1px 0 0 0 solid #ccc;
+	border-radius: 25px;
   }
+  
+
   
 
 
