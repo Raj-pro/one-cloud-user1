@@ -21,7 +21,10 @@ Welcome to the **One Byte Cloud** repository! This is the codebase for a modern 
 - **File Storage via Google Drive API:**  
   Integrates **Google Drive API** via **Google Cloud Platform** for secure file storage and retrieval, allowing users to manage files efficiently.
 
+
+
 ## Hosted URL:  
 [One Byte Cloud - Hosted on Netlify](<https://onebyte-user.netlify.app>)
+![Screenshot 2024-11-20 084443](https://github.com/user-attachments/assets/c4528fe1-8d27-4d86-a6f6-ee70cb9f8116)
 
 Feel free to explore, contribute, and customize **One Byte Cloud** as needed!
