@@ -4,7 +4,7 @@ Welcome to the **One Byte Cloud** repository! This is the codebase for a modern 
 
 ## Key Features:
 - **User Authentication:**  
-  Secure user authentication was previously implemented using AWS Cognito, but it has been removed to avoid incurring AWS billing costs.
+  Secure user authentication was previously implemented using AWS Cognito, **but it has been removed to avoid incurring AWS billing costs**.
 
 - **App Hosting:**  
   Hosted on **Netlify**, ensuring high availability, fast performance, and a reliable user experience.
